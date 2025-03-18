@@ -6,7 +6,7 @@ import { selectLoading } from "../../redux/contacts/selectors";
 import Loader from "../../components/Loader/Loader";
 import { useEffect } from "react";
 import { selectIsLoggedIn } from "../../redux/auth/selectors";
-import { fetchContacts } from "../../redux/contacts/contactsOps";
+import { fetchContacts } from "../../redux/contacts/operations";
 
 const ContactsPage = () => {
   const dispatch = useDispatch();
