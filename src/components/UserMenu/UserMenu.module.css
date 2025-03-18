@@ -1,0 +1,12 @@
+.userMenu {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.btnExit {
+  width: 70px;
+  height: 20px;
+  padding: 5px 2px;
+  line-height: 0;
+}
